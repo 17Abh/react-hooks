@@ -3,6 +3,7 @@ import './App.css';
 import ClassCounter from './Components/ClassCounter';
 import ClassCounterOne from './Components/ClassCounterOne';
 import ClassMouse from './Components/ClassMouse';
+import DataFetching from './Components/DataFetching';
 import HookCounter from './Components/HookCounter';
 import HookCounterFour from './Components/HookCounterFour';
 import HookCounterThree from './Components/HookCounterThree';
@@ -19,9 +20,11 @@ function App() {
   return (
     <div className="App">
 
-      <IntervalHooksCounter />
+      <DataFetching />
 
-      <IntervalClassCounter />
+      {/* <IntervalHooksCounter />
+
+      <IntervalClassCounter /> */}
 
       {/* <MouseContainer /> */}
 
