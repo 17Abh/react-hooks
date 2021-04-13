@@ -20,6 +20,14 @@ import ReducerTwo from './Components/ReducerTwo';
 import ReducerThree from './Components/ReducerThree';
 import DFReducerOne from './Components/DFReducerOne';
 import DFReducerTwo from './Components/DFReducerTwo';
+import UseMemoCounter from './Components/UseMemoCounter';
+import FocusInput from './Components/FocusInput';
+import ClassTimer from './Components/ClassTimer';
+import HookTimer from './Components/HookTimer';
+import DocTitleOne from './Components/DocTitleOne';
+import DocTitleTwo from './Components/DocTitleTwo';
+import CounterOne from './Components/CounterOne';
+import UserForm from './Components/UserForm';
 
 
 
@@ -32,7 +40,23 @@ function App() {
   return (
     <div className="App">
 
-      <DFReducerTwo />
+      <UserForm />
+
+      {/* <CounterOne /> */}
+
+      {/* <DocTitleTwo />
+
+      <DocTitleOne /> */}
+
+      {/* <HookTimer />
+
+      <ClassTimer /> */}
+
+      {/* <FocusInput /> */}
+
+      {/* <UseMemoCounter /> */}
+
+      {/* <DFReducerTwo /> */}
 
       {/* <DFReducerOne /> */}
 
