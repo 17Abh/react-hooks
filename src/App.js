@@ -14,7 +14,13 @@ import HookMouse from './Components/HookMouse';
 import IntervalClassCounter from './Components/IntervalClassCounter';
 import IntervalHooksCounter from './Components/IntervalHooksCounter';
 import MouseContainer from './Components/MouseContainer';
+import ReducerOne from './Components/ReducerOne';
 import UseEffectOne from './Components/UseEffectOne';
+import ReducerTwo from './Components/ReducerTwo';
+import ReducerThree from './Components/ReducerThree';
+import DFReducerOne from './Components/DFReducerOne';
+import DFReducerTwo from './Components/DFReducerTwo';
+
 
 
 export const userContext = React.createContext()
@@ -26,11 +32,21 @@ function App() {
   return (
     <div className="App">
 
-      <userContext.Provider value={'dragon'}>
+      <DFReducerTwo />
+
+      {/* <DFReducerOne /> */}
+
+      {/* <ReducerThree /> */}
+
+      {/* <ReducerTwo /> */}
+
+      {/* <ReducerOne /> */}
+
+      {/* <userContext.Provider value={'dragon'}>
         <channelcontext.Provider value={"nameless"}>
           <Context />
         </channelcontext.Provider>
-      </userContext.Provider>
+      </userContext.Provider> */}
 
 
       {/* <DataFetching /> */}
